@@ -14,6 +14,9 @@
 		F9411B1829DE234C008A886B /* LoginScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9411B1729DE234C008A886B /* LoginScreenUITests.swift */; };
 		F9411B2229DE234C008A886B /* LoginScreenUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9411B2129DE234C008A886B /* LoginScreenUIUITests.swift */; };
 		F9411B2429DE234C008A886B /* LoginScreenUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9411B2329DE234C008A886B /* LoginScreenUIUITestsLaunchTests.swift */; };
+		F943C8F429E1E30D0009696B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F943C8F329E1E30D0009696B /* LoginView.swift */; };
+		F946225E29E6913000F7682D /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946225D29E6913000F7682D /* MainPage.swift */; };
+		F946226029E696E000F7682D /* ImageCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946225F29E696E000F7682D /* ImageCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		F9411B1D29DE234C008A886B /* LoginScreenUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginScreenUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9411B2129DE234C008A886B /* LoginScreenUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUIUITests.swift; sourceTree = "<group>"; };
 		F9411B2329DE234C008A886B /* LoginScreenUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F943C8F329E1E30D0009696B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F946225D29E6913000F7682D /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		F946225F29E696E000F7682D /* ImageCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				F9411B0529DE234B008A886B /* LoginScreenUIApp.swift */,
 				F9411B0729DE234B008A886B /* ContentView.swift */,
+				F943C8F329E1E30D0009696B /* LoginView.swift */,
+				F946225F29E696E000F7682D /* ImageCard.swift */,
+				F946225D29E6913000F7682D /* MainPage.swift */,
 				F9411B0929DE234C008A886B /* Assets.xcassets */,
 				F9411B0B29DE234C008A886B /* LoginScreenUI.entitlements */,
 				F9411B0C29DE234C008A886B /* Preview Content */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F946226029E696E000F7682D /* ImageCard.swift in Sources */,
 				F9411B0829DE234B008A886B /* ContentView.swift in Sources */,
 				F9411B0629DE234B008A886B /* LoginScreenUIApp.swift in Sources */,
+				F943C8F429E1E30D0009696B /* LoginView.swift in Sources */,
+				F946225E29E6913000F7682D /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
